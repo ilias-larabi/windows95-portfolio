@@ -1,0 +1,212 @@
+.games {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+}
+
+.games-menubar {
+  background: #c0c0c0;
+  border-bottom: 1px solid #808080;
+  padding: 4px 8px;
+  font-size: 11px;
+  display: flex;
+  gap: 16px;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+.menu-item:hover {
+  background: #000080;
+  color: white;
+}
+
+.games-toolbar {
+  background: #c0c0c0;
+  border-bottom: 1px solid #808080;
+  padding: 4px;
+  display: flex;
+  gap: 2px;
+}
+
+.game-tab {
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  padding: 4px 8px;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.game-tab:hover {
+  background: #dfdfdf;
+}
+
+.game-tab.active {
+  border: 2px inset #c0c0c0;
+  background: #a0a0a0;
+}
+
+.games-content {
+  flex: 1;
+  padding: 16px;
+  overflow: auto;
+  background: #c0c0c0;
+}
+
+/* Minesweeper Styles */
+.minesweeper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.minesweeper-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #c0c0c0;
+  padding: 8px;
+  border: 2px inset #c0c0c0;
+}
+
+.mine-counter {
+  background: black;
+  color: #ff0000;
+  padding: 4px 8px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  border: 1px inset #c0c0c0;
+  min-width: 60px;
+  text-align: center;
+}
+
+.reset-button {
+  width: 32px;
+  height: 32px;
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button:hover {
+  background: #dfdfdf;
+}
+
+.reset-button:active {
+  border: 2px inset #c0c0c0;
+}
+
+.status-display {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000080;
+  min-width: 100px;
+}
+
+.minesweeper-board {
+  border: 2px inset #c0c0c0;
+  background: #c0c0c0;
+  padding: 4px;
+  display: inline-block;
+}
+
+.mine-row {
+  display: flex;
+}
+
+.mine-cell {
+  width: 20px;
+  height: 20px;
+  border: 1px outset #c0c0c0;
+  background: #c0c0c0;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'MS Sans Serif', sans-serif;
+}
+
+.mine-cell.hidden:hover {
+  background: #dfdfdf;
+}
+
+.mine-cell.revealed {
+  border: 1px solid #808080;
+  background: #c0c0c0;
+  cursor: default;
+}
+
+.mine-cell.revealed.mine {
+  background: #ff0000;
+  color: white;
+}
+
+.mine-cell.number-1 { color: #0000ff; }
+.mine-cell.number-2 { color: #008000; }
+.mine-cell.number-3 { color: #ff0000; }
+.mine-cell.number-4 { color: #000080; }
+.mine-cell.number-5 { color: #800000; }
+.mine-cell.number-6 { color: #008080; }
+.mine-cell.number-7 { color: #000000; }
+.mine-cell.number-8 { color: #808080; }
+
+.mine-cell.flagged {
+  background: #c0c0c0;
+}
+
+/* Solitaire Styles */
+.solitaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.coming-soon {
+  text-align: center;
+  background: white;
+  border: 2px inset #c0c0c0;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.coming-soon h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #000080;
+}
+
+.coming-soon p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.games-statusbar {
+  background: #c0c0c0;
+  border-top: 1px solid #dfdfdf;
+  padding: 2px 4px;
+  font-size: 10px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.status-item {
+  border: 1px inset #c0c0c0;
+  padding: 1px 6px;
+  background: #c0c0c0;
+}

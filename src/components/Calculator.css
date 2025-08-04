@@ -1,0 +1,128 @@
+.calculator {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.calculator-menubar {
+  background: #c0c0c0;
+  border-bottom: 1px solid #808080;
+  padding: 4px 8px;
+  font-size: 11px;
+  display: flex;
+  gap: 16px;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+.menu-item:hover {
+  background: #000080;
+  color: white;
+}
+
+.calculator-display {
+  padding: 8px;
+  background: #c0c0c0;
+}
+
+.display-input {
+  width: 100%;
+  height: 32px;
+  border: 2px inset #c0c0c0;
+  background: white;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 16px;
+  text-align: right;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+.display-input:focus {
+  outline: none;
+}
+
+.calculator-buttons {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  padding: 4px;
+  background: #c0c0c0;
+}
+
+.calc-button {
+  height: 32px;
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-button:hover:not(:disabled) {
+  background: #dfdfdf;
+}
+
+.calc-button:active:not(:disabled) {
+  border: 2px inset #c0c0c0;
+  background: #a0a0a0;
+}
+
+.calc-button:disabled {
+  color: #808080;
+  cursor: default;
+}
+
+.calc-button.number {
+  background: #c0c0c0;
+}
+
+.calc-button.operator {
+  background: #dfdfdf;
+  color: #000080;
+}
+
+.calc-button.function {
+  background: #dfdfdf;
+  color: #800000;
+}
+
+.calc-button.zero {
+  grid-column: span 2;
+}
+
+.calc-button.equals {
+  background: #000080;
+  color: white;
+}
+
+.calc-button.equals:hover:not(:disabled) {
+  background: #0000a0;
+}
+
+.calculator-statusbar {
+  background: #c0c0c0;
+  border-top: 1px solid #dfdfdf;
+  padding: 2px 4px;
+  font-size: 10px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.status-item {
+  border: 1px inset #c0c0c0;
+  padding: 1px 6px;
+  background: #c0c0c0;
+}

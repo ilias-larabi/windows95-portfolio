@@ -1,0 +1,59 @@
+.context-menu {
+  position: fixed;
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  z-index: 3000;
+  min-width: 150px;
+  font-size: 11px;
+  font-family: 'MS Sans Serif', sans-serif;
+}
+
+.context-menu-item {
+  padding: 4px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.context-menu-item:hover:not(.disabled) {
+  background: #000080;
+  color: white;
+}
+
+.context-menu-item.disabled {
+  color: #808080;
+  cursor: default;
+}
+
+.menu-item-icon {
+  width: 16px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.menu-item-text {
+  flex: 1;
+}
+
+.menu-item-shortcut {
+  font-size: 10px;
+  color: #666;
+}
+
+.context-menu-item:hover:not(.disabled) .menu-item-shortcut {
+  color: #ccc;
+}
+
+.menu-item-arrow {
+  font-size: 8px;
+}
+
+.context-menu-separator {
+  height: 1px;
+  background: #808080;
+  margin: 2px 4px;
+  border-bottom: 1px solid #dfdfdf;
+}

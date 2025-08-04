@@ -1,0 +1,106 @@
+.about {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  font-family: 'Courier New', monospace;
+}
+
+.notepad-menubar {
+  background: #c0c0c0;
+  border-bottom: 1px solid #808080;
+  padding: 4px 8px;
+  font-size: 11px;
+  display: flex;
+  gap: 16px;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+.menu-item:hover {
+  background: #000080;
+  color: white;
+}
+
+.notepad-content {
+  flex: 1;
+  padding: 8px;
+  overflow-y: auto;
+  background: white;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.notepad-text {
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+  color: #000;
+}
+
+.notepad-text h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.notepad-text h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.notepad-text p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.notepad-text strong {
+  font-weight: bold;
+}
+
+.notepad-statusbar {
+  background: #c0c0c0;
+  border-top: 1px solid #dfdfdf;
+  padding: 2px 4px;
+  font-size: 10px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.status-item {
+  border: 1px inset #c0c0c0;
+  padding: 1px 6px;
+  background: #c0c0c0;
+  min-width: 60px;
+  text-align: center;
+}
+
+/* Scrollbar styling */
+.notepad-content::-webkit-scrollbar {
+  width: 16px;
+}
+
+.notepad-content::-webkit-scrollbar-track {
+  background: #c0c0c0;
+  border: 1px inset #c0c0c0;
+}
+
+.notepad-content::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border: 1px outset #c0c0c0;
+}
+
+.notepad-content::-webkit-scrollbar-thumb:hover {
+  background: #dfdfdf;
+}
+
+.notepad-content::-webkit-scrollbar-corner {
+  background: #c0c0c0;
+}

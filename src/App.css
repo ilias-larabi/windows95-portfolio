@@ -1,0 +1,65 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background: #008080;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Window animations */
+.window-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.window-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.window-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.window-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 200ms, transform 200ms;
+}
+
+/* Scrollbar styling for Windows 95 look */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+  border: 1px inset #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border: 1px outset #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dfdfdf;
+}
+
+::-webkit-scrollbar-corner {
+  background: #c0c0c0;
+}
+
+/* Selection styles */
+::selection {
+  background: #000080;
+  color: white;
+}
+
+::-moz-selection {
+  background: #000080;
+  color: white;
+}
