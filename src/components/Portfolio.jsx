@@ -57,11 +57,9 @@ const Portfolio = ({ onNavigate }) => {
       <div className="portfolio-content">
         <div className="hero-section">
           <div className="hero-text">
-            <h1 className="main-title">Welcome to My Portfolio</h1>
-            <h2 className="subtitle">Full Stack Developer</h2>
-            <p className="description">
-              Building modern web applications with passion and precision
-            </p>
+            <h1 className="main-title">Hi, I'm Ilias Larabi</h1>
+            <h2 className="subtitle">Welcome to my portfolio! I'm a Full Stack Developer & Software Engineering Student with a passion for building modern web applications and solving real-world problems with code.</h2>
+            <p className="description">I'm excited to share my projects and experiences with you. Feel free to explore and get in touch for opportunities and collaborations!</p>
           </div>
         </div>
 
@@ -99,15 +97,15 @@ const Portfolio = ({ onNavigate }) => {
         <div className="quick-info">
           <div className="info-box">
             <h4>🚀 Current Focus</h4>
-            <p>React, Node.js, TypeScript</p>
+            <p>Django, React, Full-Stack Development</p>
           </div>
           <div className="info-box">
             <h4>📍 Location</h4>
-            <p>Available Worldwide</p>
+            <p>Casablanca, Morocco - Remote Available</p>
           </div>
           <div className="info-box">
             <h4>💡 Interests</h4>
-            <p>AI, Web3, Mobile Development</p>
+            <p>Fitness, Design, E-commerce, AI Tools</p>
           </div>
         </div>
       </div>

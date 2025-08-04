@@ -7,58 +7,69 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: 'Enterprise SaaS Platform',
+      name: 'NutsTree E-commerce',
       type: 'folder',
-      icon: '📁',
-      description: 'Scalable multi-tenant SaaS application with advanced analytics',
-      technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Redis', 'AWS'],
-      github: 'https://github.com/professional-dev/saas-platform',
-      demo: 'https://saas-platform-demo.pro',
-      details: 'A comprehensive SaaS platform serving 10,000+ users with real-time analytics, multi-tenant architecture, advanced user management, subscription billing, and enterprise-grade security. Features include role-based access control, API rate limiting, automated backups, and 99.9% uptime SLA.'
+      icon: '🛒',
+      description: 'Clean and responsive e-commerce site for organic nut products in Morocco',
+      technologies: ['HTML5', 'CSS3', 'JavaScript'],
+      github: 'Available upon request',
+      demo: 'https://nutstree.ma/c',
+      details: 'A professional e-commerce website for NutsTree, featuring a clean and responsive design tailored for organic nut products in the Moroccan market. The site includes product showcase, shopping cart functionality, and an elegant user interface designed for local customers. Built with vanilla web technologies for optimal performance and SEO.'
     },
     {
       id: 2,
-      name: 'AI-Powered Analytics Dashboard',
+      name: 'Document Management System',
       type: 'folder',
-      icon: '📁',
-      description: 'Machine learning analytics platform with predictive insights',
-      technologies: ['React', 'Python', 'TensorFlow', 'FastAPI', 'Docker'],
-      github: 'https://github.com/professional-dev/ai-analytics',
-      demo: 'https://ai-analytics-demo.pro',
-      details: 'Advanced analytics platform processing 1M+ data points daily with machine learning models for predictive analytics, automated reporting, and real-time data visualization. Includes custom ML pipelines, A/B testing framework, and automated anomaly detection.'
+      icon: '📄',
+      description: 'Full-stack system for organizing and managing Word documents',
+      technologies: ['Django', 'Django Ninja', 'React', 'TypeScript', 'PostgreSQL', 'Supabase'],
+      github: 'Available upon request',
+      demo: 'Under development',
+      details: 'DocManager is a comprehensive document management system designed to organize, import, and export Word documents with advanced category management. Features include a modern React frontend with TypeScript, Django backend with API integration, admin panel for document control, and PostgreSQL database with Supabase hosting. Currently under active development with modern UI/UX design.'
     },
     {
       id: 3,
-      name: 'Microservices E-Commerce',
+      name: 'Smart Parc Fleet Management',
       type: 'folder',
-      icon: '📁',
-      description: 'High-performance e-commerce with microservices architecture',
-      technologies: ['Node.js', 'Kubernetes', 'MongoDB', 'RabbitMQ', 'Stripe'],
-      github: 'https://github.com/professional-dev/microservices-ecommerce',
-      demo: 'https://ecommerce-demo.pro',
-      details: 'Scalable e-commerce platform handling 50,000+ daily transactions with microservices architecture, event-driven design, automated scaling, payment processing, inventory management, and comprehensive order tracking system.'
+      icon: '🚗',
+      description: 'Digital platform for company vehicle fleet management',
+      technologies: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL'],
+      github: 'Available upon request',
+      demo: 'Internal deployment',
+      details: 'A comprehensive fleet management system designed to modernize vehicle fleet operations. Features include vehicle reservation and return system, maintenance tracking, user and admin role management, dashboard with real-time vehicle status, activity logs, and secure authentication. Successfully deployed and tested during internship, contributing to both UI/UX design and backend logic development.'
     },
     {
       id: 4,
-      name: 'Real-Time Collaboration Suite',
+      name: 'School Management System',
       type: 'folder',
-      icon: '📁',
-      description: 'Enterprise collaboration platform with real-time features',
-      technologies: ['Vue.js', 'Socket.io', 'Redis', 'PostgreSQL', 'WebRTC'],
-      github: 'https://github.com/professional-dev/collaboration-suite',
-      demo: 'https://collaboration-demo.pro',
-      details: 'Enterprise-grade collaboration platform with real-time document editing, video conferencing, team chat, file sharing, and project management. Supports 1000+ concurrent users with end-to-end encryption and enterprise SSO integration.'
+      icon: '🏫',
+      description: 'Student records and administration management system',
+      technologies: ['C', 'JavaScript', 'HTML', 'CSS'],
+      github: 'Available upon request',
+      demo: 'Console/Web demo available',
+      details: 'A versatile management system for handling student records, grades, and administrative tasks. Available in both console-based (C) and web-based (JavaScript) versions. Features include CRUD operations for student data, grade management, user-friendly interface, and modular architecture for easy maintenance and expansion.'
     },
     {
       id: 5,
-      name: 'Portfolio Website',
+      name: 'Hospital Management System',
       type: 'folder',
-      icon: '📁',
-      description: 'Retro Windows 95-style portfolio (this site!)',
-      technologies: ['React', 'CSS3', 'Vite', 'JavaScript'],
-      github: 'https://github.com/yourusername/retro-portfolio',
-      demo: 'https://your-portfolio-demo.com',
-      details: 'A nostalgic Windows 95-inspired portfolio website with authentic UI elements and interactive desktop environment.'
+      icon: '🏥',
+      description: 'Basic system for patient data and appointment management',
+      technologies: ['C'],
+      github: 'Available upon request',
+      demo: 'Console demo available',
+      details: 'A fundamental hospital management system built in C for handling essential healthcare operations. Features include patient and doctor registration, appointment scheduling and management, structured data organization, and efficient memory management. Demonstrates strong programming fundamentals and understanding of healthcare workflow requirements.'
+    },
+    {
+      id: 6,
+      name: 'Windows 95 Portfolio',
+      type: 'folder',
+      icon: '🖥️',
+      description: 'Retro Windows 95-style interactive portfolio (this site!)',
+      technologies: ['React', 'CSS3', 'Vite', 'JavaScript', 'Web Audio API'],
+      github: 'https://github.com/ilias-larabi/windows95-portfolio',
+      demo: 'https://ilias-larabi.github.io/windows95-portfolio/',
+      details: 'A nostalgic and fully interactive Windows 95-inspired portfolio website featuring authentic desktop environment, working applications (Calculator, Minesweeper, File Manager), sound effects, and professional showcase. Built with modern React architecture while maintaining pixel-perfect retro aesthetics. Includes draggable windows, taskbar functionality, and responsive design.'
     }
   ]
 

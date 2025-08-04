@@ -13,97 +13,99 @@ const About = () => {
       
       <div className="notepad-content">
         <div className="notepad-text">
-          <h2>About Me</h2>
+          <h2>About Ilias Larabi</h2>
           <br />
           
-          <p><strong>Name:</strong> Professional Developer</p>
-          <p><strong>Title:</strong> Senior Full Stack Developer</p>
-          <p><strong>Location:</strong> Available Worldwide (Remote)</p>
-          <p><strong>Experience:</strong> 5+ Years</p>
+          <p><strong>Name:</strong> Ilias Larabi</p>
+          <p><strong>Title:</strong> Full Stack Developer & Software Engineering Student</p>
+          <p><strong>Location:</strong> Casablanca, Morocco (Remote & On-Site Available)</p>
+          <p><strong>Experience:</strong> 2+ Years</p>
+          <p><strong>Email:</strong> larabiilias@gmail.com</p>
+          <p><strong>Phone:</strong> 0620572294</p>
           <br />
           
-          <h3>Professional Summary</h3>
+          <h3>Professional Background</h3>
           <p>
-            Experienced full-stack developer specializing in modern web technologies
-            and scalable application architecture. Proven track record of delivering
-            high-quality software solutions for startups and enterprise clients.
-            
-            Passionate about clean code, user experience, and continuous learning.
-            Strong background in both frontend and backend development with expertise
-            in cloud deployment and DevOps practices.
+            I'm a Software Engineering student at EMSI (École Marocaine des Sciences de l'Ingénieur), 
+            currently in my final year pursuing a Bachelor's in Software Engineering (3IIR program). 
+            With 2+ years of practical and academic programming experience, I've worked on multiple 
+            development projects, from management systems to e-commerce websites. My experience spans 
+            both frontend and backend development, and I'm passionate about building clean, practical, 
+            and scalable digital experiences.
           </p>
           <br />
           
-          <h3>Core Technologies</h3>
-          <p><strong>Frontend Development:</strong></p>
-          <p>• React.js, Next.js, Vue.js, Angular</p>
-          <p>• TypeScript, JavaScript (ES6+), HTML5, CSS3</p>
-          <p>• Tailwind CSS, Sass/SCSS, Styled Components</p>
-          <p>• Redux, Zustand, Context API</p>
-          <p>• Responsive Design, Progressive Web Apps</p>
+          <h3>Current Focus</h3>
+          <p>
+            Building full-stack applications with Django and React, and gaining real-world experience 
+            through freelance work and internships. I'm particularly interested in creating modern web 
+            applications that solve real-world problems with code.
+          </p>
           <br />
           
-          <p><strong>Backend Development:</strong></p>
-          <p>• Node.js, Express.js, Fastify</p>
-          <p>• Python, Django, FastAPI</p>
-          <p>• RESTful APIs, GraphQL, tRPC</p>
-          <p>• Microservices Architecture</p>
-          <p>• Authentication & Authorization (JWT, OAuth)</p>
+          <h3>Technical Skills</h3>
+          <p><strong>Programming Languages:</strong></p>
+          <p>• JavaScript, Python, Java, C, C++</p>
+          <p>• PHP, SQL, PL/SQL, HTML5, CSS3</p>
           <br />
           
-          <p><strong>Database & Storage:</strong></p>
-          <p>• PostgreSQL, MongoDB, MySQL</p>
-          <p>• Redis, Elasticsearch</p>
-          <p>• Prisma, TypeORM, Mongoose</p>
-          <p>• Database Design & Optimization</p>
+          <p><strong>Frameworks & Libraries:</strong></p>
+          <p>• React, Django, Symfony</p>
+          <p>• Node.js (beginner level)</p>
+          <p>• TypeScript (learning)</p>
           <br />
           
-          <p><strong>Cloud & DevOps:</strong></p>
-          <p>• AWS, Google Cloud, Vercel, Netlify</p>
-          <p>• Docker, Kubernetes</p>
-          <p>• CI/CD Pipelines, GitHub Actions</p>
-          <p>• Monitoring & Logging</p>
+          <p><strong>Databases:</strong></p>
+          <p>• MySQL, PostgreSQL, SQLite</p>
+          <p>• Oracle Database</p>
+          <p>• Database Design & Management</p>
           <br />
           
-          <p><strong>Development Tools:</strong></p>
-          <p>• Git, GitHub, GitLab</p>
-          <p>• Vite, Webpack, Turborepo</p>
-          <p>• Jest, Vitest, Cypress, Playwright</p>
-          <p>• ESLint, Prettier, Husky</p>
+          <p><strong>Tools & Platforms:</strong></p>
+          <p>• Git, GitHub, Visual Studio Code</p>
+          <p>• XAMPP, Docker (beginner)</p>
+          <p>• Supabase, Vercel, Firebase (basic)</p>
           <br />
           
-          <h3>Professional Experience</h3>
-          <p><strong>Senior Full Stack Developer</strong> (2021 - Present)</p>
-          <p>• Led development of 15+ web applications</p>
-          <p>• Improved application performance by 40% on average</p>
-          <p>• Mentored junior developers and conducted code reviews</p>
-          <p>• Implemented CI/CD pipelines reducing deployment time by 60%</p>
+          <h3>Key Projects & Experience</h3>
+          <p><strong>NutsTree E-commerce Website</strong></p>
+          <p>• Developed a clean and responsive e-commerce site for organic nut products</p>
+          <p>• Technologies: HTML, CSS, JavaScript</p>
+          <p>• Live at: https://nutstree.ma/c</p>
           <br />
           
-          <p><strong>Full Stack Developer</strong> (2019 - 2021)</p>
-          <p>• Developed responsive web applications using React and Node.js</p>
-          <p>• Collaborated with cross-functional teams in Agile environment</p>
-          <p>• Integrated third-party APIs and payment systems</p>
+          <p><strong>Document Management System (DocManager)</strong></p>
+          <p>• Full-stack system for organizing and managing Word documents</p>
+          <p>• Technologies: Django, Django Ninja, React, TypeScript, PostgreSQL</p>
+          <p>• Features: Import/export, category management, admin panel</p>
           <br />
           
-          <h3>Education & Certifications</h3>
-          <p><strong>Bachelor of Science in Computer Science</strong></p>
-          <p>• Focus on Software Engineering and Web Technologies</p>
-          <p>• AWS Certified Developer Associate</p>
-          <p>• Google Cloud Professional Developer</p>
+          <p><strong>Smart Parc – Fleet Management System</strong></p>
+          <p>• Digital platform for company vehicle fleet management</p>
+          <p>• Technologies: HTML, CSS, JavaScript, PHP, MySQL</p>
+          <p>• Features: Vehicle tracking, maintenance, reservations</p>
+          <br />
+          
+          <h3>Education</h3>
+          <p><strong>Bachelor's in Software Engineering (3IIR program)</strong></p>
+          <p>• EMSI (École Marocaine des Sciences de l'Ingénieur), Casablanca</p>
+          <p>• Currently in final year</p>
+          <p>• Final Year Project: Service reservation system using HTML/CSS, JavaScript, SQL Server</p>
           <br />
           
           <h3>Current Focus & Interests</h3>
           <p>
-            Currently exploring cutting-edge technologies including:
-            • AI/ML integration in web applications
-            • Web3 and blockchain development
-            • Advanced React patterns and performance optimization
-            • Serverless architecture and edge computing
-            
-            Active contributor to open-source projects and technical communities.
-            Passionate about writing clean, maintainable code and sharing knowledge
-            through technical blogs and mentoring.
+            • Building full-stack applications with Django and React<br/>
+            • Gaining real-world experience through freelance work and internships<br/>
+            • Fitness & Nutrition<br/>
+            • Design with Canva<br/>
+            • E-commerce & Online Marketing<br/>
+            • Learning new tech stacks<br/>
+            • Exploring AI tools<br/>
+            <br/>
+            I'm currently open to new opportunities including internships, freelance projects, 
+            and junior full-time roles as a Full Stack Developer, Web Developer, or Software Engineer.
+            Let's build something impactful together!
           </p>
         </div>
       </div>

@@ -1,0 +1,160 @@
+.solitaire {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'MS Sans Serif', sans-serif;
+  background-color: #008000; /* Classic solitaire green */
+  color: #000;
+}
+
+.game-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #c0c0c0;
+  border-bottom: 2px solid #808080;
+  min-height: 40px;
+}
+
+.toolbar-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toolbar-button {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.toolbar-button:hover {
+  background-color: #d0d0d0;
+}
+
+.toolbar-button:active {
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 7px 11px 5px 13px;
+}
+
+.game-stats {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.game-area {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: auto;
+}
+
+.foundations {
+  display: flex;
+  gap: 10px;
+  min-height: 120px;
+}
+
+.foundation-pile {
+  width: 80px;
+  height: 120px;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stock-waste {
+  display: flex;
+  gap: 10px;
+  min-height: 120px;
+}
+
+.stock-pile, .waste-pile {
+  width: 80px;
+  height: 120px;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tableau {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.tableau-pile {
+  flex: 1;
+  min-height: 300px;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  position: relative;
+}
+
+.card {
+  width: 70px;
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  cursor: pointer;
+  position: absolute;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card.face-down {
+  background-color: #0000ff;
+  color: #fff;
+  font-size: 24px;
+}
+
+.card.selected {
+  border-color: #ffff00;
+  box-shadow: 0 0 10px #ffff00;
+}
+
+.empty-pile {
+  width: 70px;
+  height: 100px;
+  border: 2px dashed #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  text-align: center;
+}
+
+.game-statusbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: linear-gradient(to right, #c0c0c0, #c0c0c0);
+  border-top: 2px solid #ffffff;
+  font-size: 12px;
+  min-height: 24px;
+}
+
+.status-item {
+  padding: 2px 4px;
+}

@@ -8,6 +8,9 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Calculator from './components/Calculator'
 import Games from './components/Games'
+import Paint from './components/Paint'
+import SystemInfo from './components/SystemInfo'
+import Blender from './components/Blender'
 import { soundManager } from './utils/sounds'
 import './App.css'
 
@@ -118,6 +121,12 @@ function App() {
         return <Calculator />
       case 'games':
         return <Games />
+      case 'paint':
+        return <Paint />
+      case 'systeminfo':
+        return <SystemInfo />
+      case 'blender':
+        return <Blender />
       default:
         return <div>Unknown component</div>
     }

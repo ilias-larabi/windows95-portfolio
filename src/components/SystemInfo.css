@@ -1,0 +1,159 @@
+.system-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'MS Sans Serif', sans-serif;
+  background-color: #c0c0c0;
+  color: #000;
+}
+
+.sysinfo-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  background: linear-gradient(to right, #c0c0c0, #c0c0c0);
+  border-bottom: 2px solid #808080;
+  min-height: 32px;
+}
+
+.toolbar-section {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.toolbar-button {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.toolbar-button:hover {
+  background-color: #d0d0d0;
+}
+
+.toolbar-button:active {
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 5px 7px 3px 9px;
+}
+
+.sysinfo-content {
+  flex: 1;
+  padding: 16px;
+  overflow: auto;
+  background-color: #b0b0b0;
+}
+
+.sysinfo-panel {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 16px;
+}
+
+.panel-section {
+  margin-bottom: 24px;
+}
+
+.panel-section h3 {
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #808080;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-item label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.info-item span {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #808080;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.skill-category h4 {
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #808080;
+}
+
+.skill-category ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-category li {
+  padding: 4px 0;
+  border-bottom: 1px dotted #808080;
+}
+
+.skill-category li:last-child {
+  border-bottom: none;
+}
+
+.applications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.app-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #808080;
+}
+
+.app-icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.app-details h4 {
+  margin: 0 0 4px 0;
+}
+
+.app-details p {
+  margin: 0;
+  font-size: 12px;
+  color: #606060;
+}
+
+.sysinfo-statusbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: linear-gradient(to right, #c0c0c0, #c0c0c0);
+  border-top: 2px solid #ffffff;
+  font-size: 12px;
+  min-height: 24px;
+}
+
+.status-item {
+  padding: 2px 4px;
+}

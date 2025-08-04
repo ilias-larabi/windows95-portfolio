@@ -1,5 +1,10 @@
-import React, { useState, useEffect } from 'react'
-import { soundManager } from '../utils/sounds'
+import React, { useState } from 'react'
+import Minesweeper from './Minesweeper'
+import Solitaire from './Solitaire'
+import Doom from './Doom'
+import OregonTrail from './OregonTrail'
+import Scrabble from './Scrabble'
+import Henordle from './Henordle'
 import './Games.css'
 
 const Games = () => {
@@ -185,6 +190,30 @@ const Games = () => {
         >
           🃏 Solitaire
         </button>
+        <button 
+          className={`game-tab ${selectedGame === 'doom' ? 'active' : ''}`}
+          onClick={() => setSelectedGame('doom')}
+        >
+          👹 Doom
+        </button>
+        <button 
+          className={`game-tab ${selectedGame === 'oregontrail' ? 'active' : ''}`}
+          onClick={() => setSelectedGame('oregontrail')}
+        >
+          🐎 Oregon Trail
+        </button>
+        <button 
+          className={`game-tab ${selectedGame === 'scrabble' ? 'active' : ''}`}
+          onClick={() => setSelectedGame('scrabble')}
+        >
+          🆎 Scrabble
+        </button>
+        <button 
+          className={`game-tab ${selectedGame === 'henordle' ? 'active' : ''}`}
+          onClick={() => setSelectedGame('henordle')}
+        >
+          🟩 Henordle
+        </button>
       </div>
 
       <div className="games-content">
@@ -226,19 +255,34 @@ const Games = () => {
         )}
 
         {selectedGame === 'solitaire' && (
-          <div className="solitaire">
-            <div className="coming-soon">
-              <h3>🃏 Solitaire</h3>
-              <p>Coming Soon!</p>
-              <p>This classic card game will be available in a future update.</p>
-            </div>
-          </div>
+          <Solitaire />
+        )}
+        
+        {selectedGame === 'doom' && (
+          <Doom />
+        )}
+        
+        {selectedGame === 'oregontrail' && (
+          <OregonTrail />
+        )}
+        
+        {selectedGame === 'scrabble' && (
+          <Scrabble />
+        )}
+        
+        {selectedGame === 'henordle' && (
+          <Henordle />
         )}
       </div>
 
       <div className="games-statusbar">
         <div className="status-item">
-          {selectedGame === 'minesweeper' ? 'Minesweeper' : 'Solitaire'}
+          {selectedGame === 'minesweeper' ? 'Minesweeper' : 
+           selectedGame === 'solitaire' ? 'Solitaire' : 
+           selectedGame === 'doom' ? 'Doom' : 
+           selectedGame === 'oregontrail' ? 'Oregon Trail' : 
+           selectedGame === 'scrabble' ? 'Scrabble' : 
+           'Henordle'}
         </div>
         <div className="status-item">Ready</div>
       </div>

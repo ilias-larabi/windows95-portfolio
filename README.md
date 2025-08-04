@@ -1,6 +1,6 @@
-# 🖥️ Retro Windows 95 Portfolio
+# 🖥️ Ilias Larabi - Windows 95 Portfolio
 
-A nostalgic, fully interactive Windows 95-style portfolio website that showcases professional work in an engaging retro interface.
+A nostalgic, fully interactive Windows 95-style portfolio website showcasing my professional work and development skills in an engaging retro interface.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![React](https://img.shields.io/badge/React-18.x-blue)
@@ -22,11 +22,15 @@ A nostalgic, fully interactive Windows 95-style portfolio website that showcases
 
 ### 🎮 Interactive Applications
 - **Calculator**: Fully functional Windows 95-style calculator
-- **Games**: Working Minesweeper with authentic gameplay
+- **Games**: Working Minesweeper and Solitaire
 - **File Manager**: Browse through portfolio files and projects
 - **Text Editor**: Advanced text editor with syntax highlighting
-- **Paint**: Creative drawing application
-- **System Info**: Display system and portfolio information
+- 🎨 **Paint Application**: A creative drawing tool with pencil, eraser, color picker, and brush size controls
+- ℹ️ **System Information**: Detailed view of system specs, developer profile, technical skills, and portfolio applications
+- 🧊 **Blender 3D Environment**: A simplified 3D modeling environment inspired by Blender
+- 🐎 **Oregon Trail**: A classic simulation game where you travel the Oregon Trail
+- 🆎 **Scrabble**: A word game where you place tiles on a board to form words
+- 🟩 **Henordle**: A Wordle-inspired word guessing game
 
 ### 🔧 Technical Features
 - **Responsive Design**: Works on desktop and mobile devices
@@ -44,10 +48,10 @@ A nostalgic, fully interactive Windows 95-style portfolio website that showcases
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/retro-portfolio.git
+git clone https://github.com/ilias-larabi/windows95-portfolio.git
 
 # Navigate to project directory
-cd retro-portfolio
+cd windows95-portfolio
 
 # Install dependencies
 npm install
@@ -73,6 +77,7 @@ npm run preview
 - **Audio**: Web Audio API for sound effects
 - **Icons**: Unicode emojis and custom icons
 - **Fonts**: MS Sans Serif (web fonts)
+- **Deployment**: GitHub Pages
 
 ## 📁 Project Structure
 
@@ -94,13 +99,16 @@ src/
 
 ## 🎯 Roadmap
 
-- [ ] Add more retro games (Solitaire, Snake)
+- [x] Add more retro games (Minesweeper, Solitaire)
+- [x] Implement File Manager application
+- [x] Create Text Editor application
+- [x] Add Paint application
+- [x] Add System Information application
 - [ ] Implement drag-and-drop file operations
 - [ ] Add theme customization options
 - [ ] Create mobile-responsive version
 - [ ] Add keyboard shortcuts
 - [ ] Implement save/load functionality
-- [ ] Add more system applications
 
 ## 🤝 Contributing
 
@@ -124,11 +132,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Ilias Larabi - [larabiilias@gmail.com](mailto:larabiilias@gmail.com)
 
-Project Link: [https://github.com/yourusername/retro-portfolio](https://github.com/yourusername/retro-portfolio)
+Project Link: [https://github.com/ilias-larabi/windows95-portfolio](https://github.com/ilias-larabi/windows95-portfolio)
 
-Live Demo: [https://your-portfolio-url.com](https://your-portfolio-url.com)
+Live Demo: [https://ilias-larabi.github.io/windows95-portfolio/](https://ilias-larabi.github.io/windows95-portfolio/)
 
 ---
 

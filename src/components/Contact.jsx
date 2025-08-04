@@ -12,16 +12,16 @@ const Contact = () => {
 
   const contacts = {
     personal: {
-      name: 'Professional Developer',
-      title: 'Senior Full Stack Developer',
-      email: 'contact@developer.pro',
-      phone: '+1 (555) 123-4567',
-      location: 'Available Worldwide (Remote)',
-      linkedin: 'https://linkedin.com/in/professional-developer',
-      github: 'https://github.com/professional-dev',
-      website: 'https://developer-portfolio.pro',
-      twitter: 'https://twitter.com/dev_professional',
-      availability: 'Available for new projects'
+      name: 'Ilias Larabi',
+      title: 'Full Stack Developer & Software Engineering Student',
+      email: 'larabiilias@gmail.com',
+      phone: '0620572294',
+      location: 'Casablanca, Morocco (Remote & On-Site available)',
+      linkedin: 'https://linkedin.com/in/ilias-larabi',
+      github: 'https://github.com/larabiilias',
+      website: 'https://ilias-larabi.github.io/windows95-portfolio/',
+      twitter: '',
+      availability: 'Open to internships, freelance, junior full-time roles'
     }
   }
 

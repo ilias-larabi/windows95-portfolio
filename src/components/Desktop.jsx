@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { soundManager } from '../utils/sounds'
 import './Desktop.css'
+import Blender from './Blender'
 
 const Desktop = ({ onOpenWindow }) => {
   const [selectedIcon, setSelectedIcon] = useState(null)
@@ -76,6 +77,42 @@ const Desktop = ({ onOpenWindow }) => {
         component: 'games',
         position: { x: 350, y: 150 },
         size: { width: 400, height: 500 }
+      })
+    },
+    {
+      id: 'paint',
+      name: 'Paint',
+      icon: '🎨',
+      action: () => onOpenWindow({
+        id: 'paint',
+        title: 'Paint - Creative Drawing',
+        component: 'paint',
+        position: { x: 400, y: 200 },
+        size: { width: 800, height: 600 }
+      })
+    },
+    {
+      id: 'systeminfo',
+      name: 'System Info',
+      icon: 'ℹ️',
+      action: () => onOpenWindow({
+        id: 'systeminfo',
+        title: 'System Information',
+        component: 'systeminfo',
+        position: { x: 450, y: 250 },
+        size: { width: 600, height: 500 }
+      })
+    },
+    {
+      id: 'blender',
+      name: 'Blender 3D',
+      icon: '🧊',
+      action: () => onOpenWindow({
+        id: 'blender',
+        title: 'Blender 3D - PC Environment',
+        component: 'blender',
+        position: { x: 100, y: 50 },
+        size: { width: 900, height: 650 }
       })
     }
   ]

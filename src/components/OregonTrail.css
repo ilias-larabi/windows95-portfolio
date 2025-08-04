@@ -1,0 +1,145 @@
+.oregon-trail {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'MS Sans Serif', sans-serif;
+  background-color: #c0c0c0;
+  color: #000;
+}
+
+.game-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: linear-gradient(to right, #c0c0c0, #c0c0c0);
+  border-bottom: 2px solid #808080;
+  min-height: 40px;
+}
+
+.toolbar-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toolbar-button {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.toolbar-button:hover {
+  background-color: #d0d0d0;
+}
+
+.toolbar-button:active {
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 7px 11px 5px 13px;
+}
+
+.game-stats {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.game-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  overflow: auto;
+  background-color: #b0b0b0;
+  gap: 16px;
+}
+
+.trail-map {
+  height: 200px;
+  background-color: #8b4513;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.map-background {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #8b4513, #228b22, #8b4513);
+  position: relative;
+}
+
+.player-position {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  transition: left 0.5s ease;
+}
+
+.game-message {
+  flex: 1;
+  background-color: #000;
+  color: #0f0;
+  padding: 16px;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  min-height: 150px;
+}
+
+.game-message pre {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  color: #0f0;
+}
+
+.game-choices {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.choice-button {
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 150px;
+  min-height: 40px;
+}
+
+.choice-button:hover {
+  background-color: #d0d0d0;
+}
+
+.choice-button:active {
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 9px 15px 7px 17px;
+}
+
+.game-statusbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: linear-gradient(to right, #c0c0c0, #c0c0c0);
+  border-top: 2px solid #ffffff;
+  font-size: 12px;
+  min-height: 24px;
+}
+
+.status-item {
+  padding: 2px 4px;
+}
