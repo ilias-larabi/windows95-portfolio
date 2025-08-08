@@ -164,10 +164,12 @@ const Projects = () => {
                   <h3>🌐 Site Web en Direct</h3>
                   <div className="website-preview">
                     <div className="preview-info">
-                      <p>Cliquez sur le lien ci-dessous pour visiter le site web en direct :</p>
+                      <p>Cliquez sur le lien ci-dessous pour visiter le site web en direct (s'ouvre dans un nouvel onglet) :</p>
                     </div>
                     <a 
                       href={`${selectedProject.demo}?ref=portfolio`} 
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="website-link"
                     >
                       <div className="link-content">
