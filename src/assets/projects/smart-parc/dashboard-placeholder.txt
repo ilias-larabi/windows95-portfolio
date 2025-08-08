@@ -1,0 +1,4 @@
+# Dashboard Placeholder
+
+This is a placeholder for the Smart Parc dashboard screenshot.
+In the future, replace this with an actual image file (e.g., dashboard.png).

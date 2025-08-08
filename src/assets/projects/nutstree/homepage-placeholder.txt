@@ -1,0 +1,4 @@
+# NutsTree Homepage Placeholder
+
+This is a placeholder for the NutsTree e-commerce homepage screenshot.
+In the future, replace this with an actual image file (e.g., homepage.png).

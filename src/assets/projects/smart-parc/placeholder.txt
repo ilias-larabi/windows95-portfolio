@@ -1,0 +1,9 @@
+# Smart Parc Project Images
+
+Place screenshots of the Smart Parc Fleet Management system here.
+Suggested filenames:
+- dashboard.png
+- equipment-list.png
+- reservation-form.png
+- admin-panel.png
+- user-interface.png
