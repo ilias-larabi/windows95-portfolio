@@ -11,6 +11,7 @@ import Games from './components/Games'
 import Paint from './components/Paint'
 import SystemInfo from './components/SystemInfo'
 import Blender from './components/Blender'
+import NavigationHeader from './components/NavigationHeader'
 import { soundManager } from './utils/sounds'
 import './App.css'
 
@@ -134,6 +135,7 @@ function App() {
 
   return (
     <div className="app">
+      <NavigationHeader />
       <Desktop onOpenWindow={openWindow} />
       
       {openWindows.map(window => (

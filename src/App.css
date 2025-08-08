@@ -4,6 +4,8 @@
   background: #008080;
   position: relative;
   overflow: hidden;
+  padding-top: 32px;
+  box-sizing: border-box;
 }
 
 /* Window animations */

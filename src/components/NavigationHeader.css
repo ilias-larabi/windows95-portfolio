@@ -1,0 +1,76 @@
+.navigation-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  background: #c0c0c0;
+  border-bottom: 2px outset #c0c0c0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  z-index: 9999;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 11px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.back-button,
+.home-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #c0c0c0;
+  border: 1px outset #c0c0c0;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 11px;
+  color: black;
+  transition: all 0.1s;
+}
+
+.back-button:hover,
+.home-button:hover {
+  background: #dfdfdf;
+}
+
+.back-button:active,
+.home-button:active {
+  border: 1px inset #c0c0c0;
+  background: #a0a0a0;
+}
+
+.back-icon,
+.home-icon {
+  font-size: 12px;
+}
+
+.back-text,
+.home-text {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.portfolio-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #000080;
+  font-weight: bold;
+}
+
+.title-icon {
+  font-size: 14px;
+}
+
+/* Adjust the main app content to account for the navigation header */
+.app {
+  padding-top: 32px;
+}

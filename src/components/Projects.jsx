@@ -167,7 +167,7 @@ const Projects = () => {
                       <p>Cliquez sur le lien ci-dessous pour visiter le site web en direct :</p>
                     </div>
                     <a 
-                      href={selectedProject.demo} 
+                      href={`${selectedProject.demo}?ref=portfolio`} 
                       className="website-link"
                     >
                       <div className="link-content">
